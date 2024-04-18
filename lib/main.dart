@@ -159,7 +159,7 @@ class _ExampleFormPageViewsStatelessState extends State<ExampleFormPageViews> {
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
                           content: Text(
-                            'Login Berhasil!',
+                            'Login Berhasil! Mohon Scroll Bawah',
                             style: TextStyle(fontSize: 20),
                           ),
                         ),
@@ -200,7 +200,7 @@ class _ExampleFormPageViewsStatelessState extends State<ExampleFormPageViews> {
               Center(
                 child: Visibility(
                   visible: isLoginBerhasil,
-                  child: Image.asset('assets/maibebipowder.jpeg'),
+                  child: Image.asset('assets/surprise.jpg'),
                 ),
               ),
             ],
